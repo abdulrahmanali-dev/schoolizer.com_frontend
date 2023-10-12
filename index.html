@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Schoolizer - Best tool for Teachers, Institutes and Schools</title>
+    <!-- LTR Bootstrap StyleSheet -->
+    <!-- Bootstrap 5 StyleSheet -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- Project StyleSheet -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Font Awsomn StyleSheet -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+  </head>
+
+  <body>
+    <!-- Start Header -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img src="./images/logo.svg" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false" 
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse pt-3 pt-lg-0"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <!---- --------------------------- -------------------------------------------------------- ------------------------------------------------------------------------  -->
+            <li class="nav-item d-none d-lg-block dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i class="fas fa-globe"></i>
+                EN
+              </a>
+              <ul
+                class="dropdown-menu text-center"
+                aria-labelledby="navbarDropdown"
+              >
+                <li><a class="dropdown-item pt-2 pb-2" href="#">العربية</a></li>
+                <li><a class="dropdown-item pt-2 pb-2" href="#">Turkey</a></li>
+              </ul>
+              <!--  -->
+            </li>
+            <li class="nav-item d-none d-lg-block">
+              <a
+                class="nav-link"
+                id="scrollTo"
+                data-section=".contact"
+                aria-current="page"
+                href="#"
+                >CONTACT US</a
+              >
+            </li>
+            <!--  -->
+            <li class="nav-item d-none d-lg-block">
+              <a class="nav-link" id="scrollTo" data-section=".pricing" href="#"
+                >PRICING</a
+              >
+            </li>
+            <!--  -->
+            <li class="nav-item d-none d-lg-block">
+              <a
+                class="nav-link"
+                id="scrollTo"
+                data-section=".features"
+                aria-current="page"
+                href="#"
+                >FEATURES</a
+              >
+            </li>
+            <!--  -->
+            <li class="nav-item d-none d-lg-block">
+              <a
+                class="nav-link"
+                id="scrollTo"
+                data-section=".about"
+                aria-current="page"
+                href="#"
+                >WHY SCHOOLIZER?!</a
+              >
+            </li>
+            <!--  -->
+            <li class="nav-item d-none d-lg-block">
+              <a class="nav-link last active" 
+              id="scrollTo"
+              data-section=".hero" href="#">
+                <i class="fas fa-home"></i>
+                HOME</a
+              >
+            </li>
+            <!-- --------------------------- ---------------------------------------------------------- --------------------------- --------------------------------------------------------->
+            <li class="nav-item d-lg-none">
+              <a class="nav-link active" 
+              id="scrollTo"
+              data-section=".hero" href="#">
+                <i class="fas fa-home"></i>
+                HOME</a
+              >
+            </li>
+            <!--  -->
+            <li class="nav-item d-lg-none">
+              <a
+                class="nav-link"
+                id="scrollTo"
+                data-section=".about"
+                aria-current="page"
+                href="#"
+                >WHY SCHOOLIZER?!</a
+              >
+            </li>
+            <!--  -->
+            <li class="nav-item d-lg-none">
+              <a
+                class="nav-link"
+                id="scrollTo"
+                data-section=".features"
+                aria-current="page"
+                href="#"
+                >FEATURES</a
+              >
+            </li>
+            <!--  -->
+            <li class="nav-item d-lg-none">
+              <a class="nav-link" id="scrollTo" data-section=".pricing" href="#"
+                >PRICING</a
+              >
+            </li>
+            <!--  -->
+            <li class="nav-item d-lg-none">
+              <a
+                class="nav-link"
+                id="scrollTo"
+                data-section=".contact"
+                aria-current="page"
+                href="#"
+                >CONTACT US</a
+              >
+            </li>
+
+            <!--  -->
+            <li class="nav-item d-lg-none dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i class="fas fa-globe"></i>
+                EN
+              </a>
+              <ul
+                class="dropdown-menu text-center"
+                aria-labelledby="navbarDropdown"
+              >
+                <li><a class="dropdown-item pt-2 pb-2" href="#">العربية</a></li>
+                <li><a class="dropdown-item pt-2 pb-2" href="#">Turkey</a></li>
+              </ul>
+            </li>
+            <!-- ---------------------------------------------------------- -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Header -->
+    <!-- Start Hero Section -->
+    <section
+      data-section=".hero"
+      class="hero d-flex justify-content-center align-items-center text-center text-white"
+    >
+      <div class="info">
+        <i class="fas fa-user-graduate"></i>
+        <p class="desc">
+          To get better education ... we must develop our methods and
+          techniques... Schoolizer helps you to enhance teaching quality.
+        </p>
+        <button
+          type="button"
+          data-bs-toggle="modal"
+          data-bs-target="#register_mdl"
+          class="my-btn btn-success"
+        >
+          START NOW
+        </button>
+        <button
+          type="button"
+          data-bs-toggle="modal"
+          data-bs-target="#demo_mdl"
+          class="my-btn btn-warning"
+        >
+          DEMO ACCOUNT
+        </button>
+        <h1>
+          <i class="fas fa-check"></i>
+          TEACHERS REPORTS
+        </h1>
+        <div class="scroll-btn">
+          <span class="mouse">
+            <span class="weel">
+              <span></span>
+            </span>
+          </span>
+        </div>
+      </div>
+    </section>
+    <!-- End Hero Section -->
+    <!-- Start About Section -->
+    <section data-section=".about" class="about">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="info text-center col-12 col-lg-6">
+            <h3>WHAT IS THE BENEFIT OF SCHOOLIZER?</h3>
+            <p>
+              Schoolizer saves money, time, effort and gives preference to
+              parents and students by improving the way students learn and
+              helping the teaching staff to manage their classes and creating
+              scientific material ... It also enables administrators to monitor
+              teachers` performance and discover weaknesses.
+              <a
+                data-toggle="modal"
+                data-target="#article_mdl"
+                href="javascript:void(0);"
+                >More details</a
+              >
+            </p>
+            <div class="btn-container">
+              <div
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#register_mdl"
+                class="my-btn btn-success"
+              >
+                START NOW
+              </div>
+              <div
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#demo_mdl"
+                class="my-btn btn-warning"
+              >
+                DEMO ACCOUNT
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <img src="./images/about.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About Section -->
+    <!-- Start Features Section -->
+    <section data-section=".features" class="features text-white text-center">
+      <div class="overlay"></div>
+      <div class="container">
+        <h2 class="heading">MAIN SECTIONS</h2>
+        <p class="mb-5">Here showing features and sections of the Schoolizer</p>
+        <div class="row">
+          <div class="feat col-12 col-md-6 col-lg-3">
+            <i class="fas fa-university"></i>
+            <h4>SCHOOL ADMIN</h4>
+            <p>
+              Shcool administrator can control all other departments and set
+              permissions such as move students, monitor teachers, and view
+              statistics
+            </p>
+          </div>
+          <div class="feat col-12 col-md-6 col-lg-3">
+            <i class="fas fa-chalkboard-teacher"></i>
+            <h4>TEACHERS</h4>
+            <p>
+              Teachers can manage classes assigned for them... they can create
+              exams, homeworks and send them to their students and all other
+              functions like review students` solve etc...
+            </p>
+          </div>
+          <div class="feat col-12 col-md-6 col-lg-3">
+            <i class="fas fa-user-graduate"></i>
+            <h4>STUDENT</h4>
+            <p>
+              Students see in his class everything related to him... his grades,
+              assigns, reviews and the medals he got
+            </p>
+          </div>
+          <div class="feat col-12 col-md-6 col-lg-3">
+            <i class="fas fa-graduation-cap"></i>
+            <h4>EXAMS</h4>
+            <p>
+              This department available only for Teachers and Admin
+              memberships... where they can create exams and assign it to their
+              students
+            </p>
+          </div>
+          <div class="feat col-12 col-md-6 col-lg-3">
+            <i class="fas fa-book-reader"></i>
+            <h4>HOMEWORKS</h4>
+            <p>
+              This department available only for Teachers and Admin
+              memberships... where they can create homeworks and assign it to
+              their students
+            </p>
+          </div>
+          <div class="feat col-12 col-md-6 col-lg-3">
+            <i class="fas fa-chart-pie"></i>
+            <h4>STATISTICS</h4>
+            <p>
+              Statistics available only for Admin membership, allow admin to
+              monitor teachers, students and rooms performance, helps admin to
+              manage his facility
+            </p>
+          </div>
+          <div class="feat col-12 col-md-6 col-lg-3">
+            <i class="fas fa-door-open"></i>
+            <h4>CLASSES</h4>
+            <p>
+              Here Admin can create new classes, add students to classes, and
+              other functions help order students and set learning materials
+              categories
+            </p>
+          </div>
+          <div class="feat col-12 col-md-6 col-lg-3">
+            <i class="fas fa-user-friends"></i>
+            <h4>PARENTS</h4>
+            <p>
+              This feature is very important, its allow parents to track their
+              children`s study level and progress... where admin can send
+              periodic reports parents
+            </p>
+          </div>
+          <div class="feat col-12 col-md-6 col-lg-3">
+            <i class="fas fa-comments"></i>
+            <h4>MESSAGING</h4>
+            <p>
+              There is an internal messaging system that enables students,
+              teachers and admin to communicate with each other easily with
+              email alerts.
+            </p>
+          </div>
+          <div class="feat col-12 col-md-6 col-lg-3">
+            <i class="fas fa-table"></i>
+            <h4>PROGRAM</h4>
+            <p>
+              Each class has a weekly study schedule for the material will be
+              studied, it guides teachers and students to know which material
+              they have to prepare.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Features Section -->
+    <!-- Stert Princing Packages -->
+    <section data-section=".pricing" class="pricing text-center">
+      <div class="container">
+        <h2 class="heading">PACKAGES PRICES</h2>
+        <p>
+          The packages have been carefully studied to cover all educational
+          facilities according to size and activities
+        </p>
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 mycheckbox">
+            <label>
+              <input type="checkbox" ng-model="userdt.isAnnually" />
+              <span></span> Pay annually
+              <span class="redBg">&nbsp;30% Discount&nbsp;</span>
+            </label>
+          </div>
+          <div class="price col-12 col-lg-4">
+            <div class="itm">
+              <span>Free</span>
+              <h2>$0.00<span>/Free forever</span></h2>
+              <hr />
+              <div class="nfo">
+                <p class="m-0">
+                  This is FREE package and it will be always free
+                </p>
+                <ul class="list-unstyled">
+                  <a
+                    href=""
+                    class="features-list-link"
+                    data-section=".features"
+                  >
+                    <i class="fas fa-check"></i>
+                    Features list
+                  </a>
+                  <li class="limited">
+                    <i class="fas fa-ban"></i>
+                    Limited to 1 class
+                  </li>
+                  <li class="limited">
+                    <i class="fas fa-ban"></i>
+                    Limited to 1 teacher
+                  </li>
+                  <li class="limited">
+                    <i class="fas fa-ban"></i>
+                    There is add banners
+                  </li>
+                </ul>
+              </div>
+              <button
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#login_mdl"
+                class="btn rounded-pill"
+              >
+                Start now
+              </button>
+            </div>
+          </div>
+          <div class="price col-12 col-lg-4">
+            <div class="itm">
+              <span>Teacher</span>
+              <h2>$9.99<span>/Monthly</span></h2>
+              <hr />
+              <div class="nfo">
+                <p class="m-0">
+                  This package is suitable for individual teachers
+                </p>
+                <ul class="list-unstyled">
+                  <a
+                    href=""
+                    class="features-list-link"
+                    data-section=".features"
+                  >
+                    <i class="fas fa-check"></i>
+                    Features list
+                  </a>
+                  <li class="limited">
+                    <i class="fas fa-ban"></i>
+                    Limited to 10 classes
+                  </li>
+                  <li class="limited">
+                    <i class="fas fa-ban"></i>
+                    Limited to 1 teacher
+                  </li>
+                </ul>
+              </div>
+              <button
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#login_mdl"
+                class="btn rounded-pill"
+              >
+                Start now
+              </button>
+            </div>
+          </div>
+          <div class="price col-12 col-lg-4">
+            <div class="itm">
+              <span>Institutes</span>
+              <h2>$44.99<span>/Monthly</span></h2>
+              <hr />
+              <div class="nfo">
+                <p class="m-0">
+                  This package is suitable for medium-sized facilities
+                </p>
+                <ul class="list-unstyled">
+                  <a
+                    href=""
+                    class="features-list-link"
+                    data-section=".features"
+                  >
+                    <i class="fas fa-check"></i>
+                    Features list
+                  </a>
+                  <li class="limited">
+                    <i class="fas fa-ban"></i>
+                    Limited to 50 classes
+                  </li>
+                  <li class="limited">
+                    <i class="fas fa-ban"></i>
+                    Limited to 30 teacher
+                  </li>
+                </ul>
+              </div>
+              <button
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#login_mdl"
+                class="btn rounded-pill"
+              >
+                Start now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Start Contact Us Section -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="info col-12 col-md-6">
+            <h3 class="m-0">CONTACT US</h3>
+            <p>
+              Dear visitors, we very much desire to develop useful services that
+              meet Full your needs... Therefore, we hope to get a little of your
+              precious time, give us your transparent opinion or any ideas come
+              to your mind, which is valuable information that helps us to
+              provide the best... Thank you.
+            </p>
+            <div class="social">
+              <div class="itm">
+                <i class="fas fa-envelope"></i>
+                <a class="text-uppercase" href="mailto:info@devzonia.com">
+                  info@devzonia.com</a
+                >
+              </div>
+              <div class="itm">
+                <i class="fab fa-whatsapp"></i>
+                <a href="https://bit.ly/3qEH6j0"> 00905346346466 </a>
+              </div>
+            </div>
+          </div>
+          <form action="" class="col-12 col-md-6 d-flex flex-column">
+            <h3 class="m-0">CONTACT US</h3>
+            <input type="text" name="name" placeholder="Full name" id="" />
+            <input type="text" name="e-mail" placeholder="E-mail" id="" />
+            <input type="text" name="phone" placeholder="Phone" id="" />
+            <textarea
+              name="message"
+              id=""
+              cols="30"
+              rows="2"
+              placeholder="Message"
+            ></textarea>
+            <input
+              class="code"
+              type="text"
+              name="code"
+              placeholder="Code"
+              id=""
+              maxlength="4"
+            />
+            <div class="btn-container">
+              <button class="my-btn btn-dark">
+                <i class="fas fa-paper-plane"></i>
+                SEND
+              </button>
+              <button class="my-btn btn-success">
+                <i class="fab fa-whatsapp"></i>
+                WHATSAPP
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact -->
+    <!-- Start CAll To Action -->
+    <section class="action">
+      <div class="container">
+        <div class="row flex align-items-center justify-content-between">
+          <div class="col-12 col-md-9">
+            <p class="m-0">
+              SCHOOLIZER, AN IDEAL SOLUTION FOR LEARING FACILITIES
+            </p>
+          </div>
+          <div class="col-12 col-md-3 btn-container">
+            <button
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#register_mdl"
+              class="my-btn btn-success"
+            >
+              START NOW
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End CAll To Action -->
+    <!-- Start Footer -->
+    <footer>
+      <div class="container">
+        <div class="row align-items-start justify-content-between text-center">
+          <div class="terms col-12 col-sm-4 p-md-0 pb-4">
+            <h6>
+              POWERED BY
+              <a href="http://devzonia.com"> DEVZONIA.COM</a>
+            </h6>
+            <div>
+              <a href="/pages/privacy-policy">Privacy policy</a>
+            </div>
+            <div>
+              <a href="/pages/terms-of-use">Terms of use</a>
+            </div>
+          </div>
+          <div class="we-love col-12 col-sm-4 p-md-0 pb-4">
+            WE
+            <i class="fas fa-heart"></i>
+            TEACHING AND LEARNING
+          </div>
+          <div
+            class="social col-12 col-sm-4 p-md-0 pb-4 d-flex justify-content-center"
+          >
+            <a href="https://www.twitter.com/SchoolizerC">
+              <i class="twitter fab fa-twitter"></i>
+            </a>
+            <a href="https://www.facebook.com/SchoolizerCom">
+              <i class="facebook fab fa-facebook"></i>
+            </a>
+            <a href="https://www.linkedin.com/company/schoolizer">
+              <i class="linkedin fab fa-linkedin"></i>
+            </a>
+          </div>
+          <div class="copyright pt-5 pb-4 col-12">
+            2019-2023 Schoolizer © All copyrights reserved
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+    <!-- Call Center icon -->
+    <div class="call-center">
+      <a href="#contact" class="page-scroll">
+        <img src="/images/callcenter_en.svg" alt="callcenter" height="140" />
+      </a>
+    </div>
+    <!-- Modal register-->
+    <div
+      class="modal fade"
+      id="register_mdl"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">NEW ACCOUNT</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="row p-2">
+              <h4>REGISTER</h4>
+              <div class="col-12 col-sm-6">
+                <form action="" class="d-flex flex-column">
+                  <input placeholder="E-mail" type="email" name="" id="" />
+                  <input placeholder="Password" type="password" name="" id="" />
+                  <input placeholder="Full name" type="text" name="" id="" />
+                  <input placeholder="Address" type="text" name="" id="" />
+                  <input placeholder="Mobile" type="number" name="" id="" />
+                  <label class="mycheckbox" name="iagree">
+                    <input
+                      type="checkbox"
+                      id="iagree"
+                      ng-model="userdt.iagree"
+                      ng-false-value="false"
+                      ng-true-value="true"
+                      class="ng-pristine ng-untouched ng-valid ng-empty"
+                    />
+                    <span></span> You must read the subject and agree
+                    <a target="_blank" href="/pages/privacy-policy"
+                      >Privacy policy</a
+                    >
+                  </label>
+                  <a href="" class="my-btn btn-success">
+                    <i class="fas fa-user-plus"></i>
+                    CREATE ACCOUNT
+                  </a>
+                </form>
+              </div>
+              <div class="login-pls col-12 col-sm-6">
+                <h5>DO YOU ALREADY HAVE ACCOUNT</h5>
+                <p>
+                  Please login, or if you forgot your password, you can request
+                  it
+                </p>
+                <a href="" class="my-btn btn-primary">
+                  <i class="fas fa-sign-in-alt"></i>
+                  LOGIN
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal demo -->
+    <div
+      class="modal fade"
+      id="demo_mdl"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">DEMO LOGIN</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form class="d-flex flex-column p-2" action="">
+              <h4>LOGIN AS DEMO</h4>
+              <input
+                class="p-1"
+                placeholder="E-mail"
+                type="email"
+                name=""
+                id=" "
+              />
+              <input
+                class="p-1"
+                placeholder="password"
+                type="password"
+                name=""
+                id=""
+              />
+              <div class="btn-container">
+                <a href="#" class="my-btn btn-success" type="submit">
+                  <i class="fas fa-sign-in-alt"></i>
+                  LOGIN
+                </a>
+                <a href="#" class="my-btn btn-primary" type="submit">
+                  <i class="fas fa-user-plus"></i>
+                  CREATE A NEW ACCOUNT
+                </a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Login -->
+    <div
+      class="modal fade"
+      id="login_mdl"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">LOGIN</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="row p-2">
+              <h4>LOGIN</h4>
+              <div class="col-12 col-sm-6">
+                <form action="" class="d-flex flex-column">
+                  <input placeholder="E-mail" type="email" name="" id="" />
+                  <input placeholder="Password" type="password" name="" id="" />
+                  <label class="mycheckbox" name="iagree">
+                    <input
+                      type="checkbox"
+                      id="iagree"
+                      ng-model="userdt.iagree"
+                      ng-false-value="false"
+                      ng-true-value="true"
+                      class="ng-pristine ng-untouched ng-valid ng-empty"
+                      checked
+                    />
+                    <span></span> Remember me
+                  </label>
+                  <div>
+                    <a href="" class="my-btn btn-success">
+                      <i class="fas fa-sign-in-alt"></i>
+                      LOGIN
+                    </a>
+                    <a
+                      href=""
+                      class="ps-1"
+                      data-toggle="modal"
+                      data-target="#getpassword_mdl"
+                      data-dismiss="modal"
+                    >
+                      Forget your password?
+                    </a>
+                  </div>
+                </form>
+              </div>
+              <div class="login-pls col-12 col-sm-6">
+                <h5>CREATE NEW ACCOUNT</h5>
+                <p>
+                  New account gives you full control on your educational
+                  activity, exams, homework, students and their performance,
+                  teachers and their performance and more...
+                </p>
+                <p class="mt-3 mb-1">Do you have account yet?</p>
+                <a href="" class="my-btn btn-primary">
+                  <i class="fas fa-user-plus"></i>
+                  REGISTER
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Modal -->
+    <script src="./js/bootstrap.bundle.js"></script>
+    <script src="./js/all.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/jquery-3.6.4.js"></script>
+    <script>
+      // Reduce Opacity On scroll for the hero section
+      $(window).scroll(function () {
+        let scrollTop = $(this).scrollTop();
+        $(".hero").css({
+          opacity: function () {
+            let elementHeight = $(this).height(),
+              opacity =
+                (1 + (elementHeight - scrollTop) / elementHeight) * 0.85 - 0.7;
+            return opacity;
+          },
+        });
+      });
+    </script>
+  </body>
+</html>
